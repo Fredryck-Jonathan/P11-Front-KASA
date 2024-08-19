@@ -1,0 +1,29 @@
+.tag{
+color: white;
+font-size: 14px;
+font-weight: bold;
+border-radius: 10px;
+padding: 5px 20px 5px 20px;
+margin: auto;
+background-color: #FF6060;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+max-width: 115px;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .tag{
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 5px 20px 5px 20px;
+        margin: auto;
+        background-color: #FF6060;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 65px;
+        }
+}

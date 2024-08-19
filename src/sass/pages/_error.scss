@@ -1,0 +1,62 @@
+.error_section{
+
+
+
+    display: grid;
+    place-content: center center;
+    place-items: center center;
+    gap: 100px;
+    margin-bottom: 100px;
+
+    h3{
+
+        font-size: 288px;
+        color: #FF6060;
+
+    }
+
+    p{
+
+        font-size: 36px;
+        color: #FF6060;
+
+    }
+
+    a{
+
+        text-decoration:underline;
+        font-size: 18px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 750px){
+
+    .error_section{
+
+        margin-top: 70px;
+
+        h3{
+
+            font-size: 96px;
+
+        }
+
+        p{
+            text-align: center;
+            font-size: 18px;
+
+        }
+
+        a{
+
+font-size: 14PX;
+
+        }
+ 
+    }
+
+
+}

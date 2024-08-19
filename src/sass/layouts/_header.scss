@@ -1,0 +1,67 @@
+.header{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center space-between;
+
+    height: 30%;
+
+    //margin: 50px 100px 50px 100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+nav{
+    display: flex;
+    place-self: center end;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#logo{
+    width: 210px;
+}
+
+a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    margin: auto;
+    white-space: nowrap;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 750px){
+
+    .header{
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    nav{
+        gap: 20px;
+    }
+
+    .NavLink{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 142.6%;
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+        text-decoration-line: underline;
+    }
+
+    #logo{
+        width: 145px;
+    }
+}
