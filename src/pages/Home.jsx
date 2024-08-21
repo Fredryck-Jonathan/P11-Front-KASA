@@ -1,6 +1,6 @@
-/*Import des libraries utiliser*/
-import Data from "../data/data_logements.json"
-import Thumb from "../components/thumb"
+import Data from "../data/data_logements.json";
+import Thumb from "../components/thumb";
+
 function Home() {
     return (
         <div className='home_section'>
@@ -17,4 +17,4 @@ function Home() {
         </div>
     )
 }
-export default Home
+export default Home;

@@ -1,5 +1,5 @@
-/*Import des libraries utiliser*/
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+
 function ErrorPage() {
     return (
         <div className='error_section'>
@@ -9,4 +9,4 @@ function ErrorPage() {
         </div>
     )
 }
-export default ErrorPage
+export default ErrorPage;

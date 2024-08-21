@@ -1,13 +1,10 @@
 import { useEffect } from 'react';
-
 /**ajout du tableau de la base de données */
 import Data  from "../data/data_logements.json";
-
 /*Ajout de use params*/
 import { useParams, Navigate } from "react-router-dom";
-
 /*Importation des composants utiliser*/
-import Tag from "../components/tag"
+import Tag from "../components/tag";
 import Dropdown from "../components/dropdown";
 import Carousel from '../layouts/Carousel';
 
@@ -30,7 +27,6 @@ function Accomodation() {
         }
         return equipements
     }
-
     function changeColors() {
         if (data !== undefined) {
             const rate = Number(data.rating);
@@ -80,5 +76,4 @@ function Accomodation() {
             </div>
         </div>
 )}
-
-export default Accomodation
+export default Accomodation;

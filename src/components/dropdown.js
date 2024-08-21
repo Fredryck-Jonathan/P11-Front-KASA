@@ -1,4 +1,3 @@
-/*Import des libraries utiliser*/
 function Dropdown(props) {
     function toggleDropdown(e) {
         const element_event = e.currentTarget;
@@ -22,4 +21,4 @@ function Dropdown(props) {
         </div>
     )
 }
-export default Dropdown
+export default Dropdown;

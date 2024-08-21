@@ -1,6 +1,6 @@
-/*Import des libraries utiliser*/
-import Data_about from "../data/data_about"
-import Dropdown from "../components/dropdown"
+import Data_about from "../data/data_about";
+import Dropdown from "../components/dropdown";
+
 function About() {
     return (
         <div className='about_section'>
@@ -15,4 +15,4 @@ function About() {
         </div>
     )
 }
-export default About
+export default About;

@@ -1,5 +1,5 @@
-/*Import des libraries utiliser*/
 import { NavLink } from "react-router-dom"
+
 function Header() {
     return (
         <div className='header'>
@@ -11,4 +11,4 @@ function Header() {
         </div>
     )
 }
-export default Header
+export default Header;
