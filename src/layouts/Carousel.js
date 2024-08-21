@@ -1,4 +1,5 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
+
 const Carousel = (props) => {
     const data = props.pictures
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -37,4 +38,5 @@ const Carousel = (props) => {
         </div>
     )
 }
+
 export default Carousel

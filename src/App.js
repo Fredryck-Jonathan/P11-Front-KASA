@@ -1,14 +1,17 @@
 /*Importation des librairies*/
 import React from 'react'
-import { BrowserRouter as  Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 /*Pages*/ 
-import Home from './pages/Home'
-import About from './pages/About'
-import OneAccomodation from './pages/One_Accomodation'
-import PageNotFound from './pages/404'
+import Home from './pages/Home';
+import About from './pages/About';
+import OneAccomodation from './pages/One_Accomodation';
+import PageNotFound from './pages/404';
+
 /*Layouts*/
-import Header from './layouts/Header'
-import Footer from './layouts/Footer'
+import Header from './layouts/Header';
+import Footer from './layouts/Footer';
+
 function App() {
     return (
         <Router>
@@ -23,4 +26,5 @@ function App() {
         </Router>
     )
 }
-export default App
+
+export default App;

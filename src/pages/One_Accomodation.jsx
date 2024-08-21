@@ -1,8 +1,11 @@
 import { useEffect } from 'react';
+
 /**ajout du tableau de la base de données */
 import Data  from "../data/data_logements.json";
+
 /*Ajout de use params*/
 import { useParams, Navigate } from "react-router-dom";
+
 /*Importation des composants utiliser*/
 import Tag from "../components/tag"
 import Dropdown from "../components/dropdown";
@@ -27,13 +30,14 @@ function Accomodation() {
         }
         return equipements
     }
+
     function changeColors() {
         if (data !== undefined) {
             const rate = Number(data.rating);
             const all_rate = document.querySelectorAll('.one_rate');
             all_rate.forEach((element, index) => {
                 if (index < rate) {
-                    element.style.color = '#FF6060';
+                    element.style.color = '#FF6060'; // Change this color as needed
                 } else {
                     element.style.color = '#E3E3E3';
                 }
@@ -75,6 +79,6 @@ function Accomodation() {
                 </div>
             </div>
         </div>
-    )
-}
+)}
+
 export default Accomodation
