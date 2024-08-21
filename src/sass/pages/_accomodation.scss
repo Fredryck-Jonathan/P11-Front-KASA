@@ -1,25 +1,14 @@
 #accomodation_page{
-
     .carousel_div{
-
     width: 90%;
     margin: auto;
-
     }
-
-
-
     .infos_div{
-
-
         display: grid;
         width: 90%;
         margin: auto;
         margin-top: 20px;
         gap:  25px;
-
-
-
         .infos_location{
             display: grid;
             gap: 5px;
@@ -35,17 +24,14 @@
                 font-weight: 500;
             }
         }
-
         .all_tags{
             display: grid;
-           // grid-template-columns: repeat(auto-fill, minmax(100px, max-content));
             grid-auto-flow: column;
             place-content: start;
             gap: 20px;
             grid-row-start: 2;
             grid-column-start: 1;
         }
-
         .infos_perso{
             display: grid;
             gap: 10px;
@@ -53,14 +39,12 @@
             grid-column-end: 3;
             place-content:center end;
             place-items: center end;
-
             h3{
                 font-size: 18px;
                 color:#FF6060;
                 font-weight: 500;
                 text-align: end;
             }
-
             .infos_perso_img_mask{
                 width: 64px;
                 height: 64px;
@@ -68,26 +52,21 @@
                 object-fit: cover;
                 overflow: hidden;
                 border-radius: 50px;
-
                 img{
                     width: 100%;
                 }
             }
         }
-
         .rate_div{
-
             display: grid;
             grid-auto-flow: column;
             place-content: center end;
             place-items: center end;
             gap: 10px;
-
             ion-icon{
                 font-size: 25px;
             }
         }
-
         .dropdowns_div{
             margin-bottom: 100px;
             display: grid;
@@ -102,34 +81,22 @@
     }
 }
 
-
 @media screen and (max-width: 1000px) {
     #accomodation_page{
-
         .infos_div{
-    
             gap:  15px;
-    
-    
-    
             .infos_location{
                 gap: 10px;
                 grid-row-start: 1;
                 grid-column-start: 1;
                 grid-column-end: 3;
-
                 h3{
-
                     font-size: 18px;
                 }
-
                 p{
-
                     font-size: 14px;
-
                 }
             }
-    
             .all_tags{
                 gap: 10px;
                 grid-row-start: 2;
@@ -137,20 +104,15 @@
                 grid-column-end: 3;
                 place-content: center start;
             }
-
             .infos_perso{
                 grid-column-end: 3;
                 grid-row-end: 4;
                 place-content:center end;
                 place-items: center end;
                 grid-template-columns: 50px 70px;
-
                 h3{
-
                     font-size: 12px;
-
                 }
-
                 .infos_perso_img_mask{
                     width: 64px;
                     height: 64px;
@@ -158,44 +120,28 @@
                     object-fit: cover;
                     overflow: hidden;
                     border-radius: 50px;
-
                     img{
                         width: 100%;
                     }
                 }
             }
-
             .rate_div{
                 place-content: center start;
                 place-items: center end;
                 gap: 5px;
                 grid-row-end: 4;
                 grid-column-start: 1;
-    
                 ion-icon{
-    
                     font-size: 20px;
-    
                 }
-    
-    
             }
-    
             .dropdowns_div{
-    
                 grid-row-start: 4;
                 grid-column-start: 1;
                 grid-template-columns: auto;
                 gap: 30px;
                 margin-bottom: 15px;
-
             }
-    
-    
         }
     }
-
-
-
-
 }

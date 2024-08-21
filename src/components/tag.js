@@ -1,5 +1,4 @@
 /*Import des libraries utiliser*/
-
 function Tag(props) {
     return (
         <p className="tag">
@@ -7,5 +6,4 @@ function Tag(props) {
         </p>
     )
 }
-
 export default Tag

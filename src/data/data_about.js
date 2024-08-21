@@ -21,5 +21,4 @@ content:
 },
 ];
 
-
 export default aboutList

@@ -1,35 +1,18 @@
 .carousel-container {
     width: 100%;
     margin: auto;
-
     overflow: hidden;
     height: 415px;
     border-radius: 10px;
     position: relative;
-    
-
-    
     .carousel-item{
-
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-
     transition: 1s cubic-bezier(0.39,0.575,0.565,1);
-
-
-
-
-    
     }
-    
-
-
-
-
     .indicators{
-
         z-index: 100;
         position: absolute;
         top: 0px;
@@ -37,33 +20,20 @@
         height: 100%;
         width: 100%;
         display: grid;
-        
-
-
-
         .chevrons_carousel{
-
             font-size: 100px;
             color: white;
             cursor: pointer;
-
         }
-
         .chevron_back{
-
             grid-row-start: 2;
             place-self: end start;
-
         }
-
         .chevron_forward{
-
             grid-column-start: 3;
             grid-row-start: 2;
             place-self: end end;
-
         }
-
         .number_carousel{
             font-size: 20px;
             grid-column-start: 2;
@@ -72,54 +42,25 @@
             color: white;
             margin-bottom: 40px;
         }
-
-
     }
 }
 
-
 @media screen and (max-width: 1000px){
-
     .carousel-container {
         width: 100%;
         height: 255px;
         margin: auto;
-    
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: 100%;
-    
-    
-    
-    
-    
-        /*display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;*/
         overflow: hidden;
         border-radius: 10px;
         position: relative;
-        
-    
-        
         .carousel-item{
-
         min-height: 255px;
         margin-top: 0;
-    
-    
-    
-    
-    
-        
         }
-        
-    
-    
-    
-    
         .indicators{
-    
             z-index: 100;
             position: absolute;
             top: 0px;
@@ -129,41 +70,23 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
-            
-            
-    
-    
-    
             .chevrons_carousel{
-    
                 font-size: 50px;
                 color: white;
                 cursor: pointer;
-    
             }
-    
             .chevron_back{
-    
                 grid-row-start: 2;
                 place-self: center start;
-    
             }
-    
             .chevron_forward{
-    
                 grid-column-start: 3;
                 grid-row-start: 2;
                 place-self: center end;
-    
             }
-    
             .number_carousel{
                 visibility: hidden;
             }
-    
-    
         }
     }
-    
-
 }
