@@ -1,12 +1,5 @@
 import { useEffect } from 'react';
 
-
-/**ajout des composants */
-
-
-//import Carousel from "../components/Carousel"
-
-
 /**ajout du tableau de la base de données */
 import Data  from "../data/data_logements.json";
 
@@ -19,20 +12,11 @@ import Tag from "../components/tag"
 import Dropdown from "../components/dropdown";
 import Carousel from '../layouts/Carousel';
 
-
-
-
-
-
-
-
 function Accomodation() {
 
     useEffect(() => {
         changeColors()
     }, []);
-
-
 
     let { id } = useParams();
 
@@ -61,7 +45,7 @@ function Accomodation() {
             const all_rate = document.querySelectorAll('.one_rate');
             all_rate.forEach((element, index) => {
                 if (index < rate) {
-                    element.style.color = '#FF6060'; // Change this color as needed
+                    element.style.color = '#FF6060';
                 } else {
                     element.style.color = '#E3E3E3';
                 }
@@ -79,10 +63,6 @@ function Accomodation() {
             <Carousel pictures={data.pictures}></Carousel>
 
             </div>
-
-
-
-
 
             <div className="infos_div">
                 <div className="infos_location">
@@ -120,10 +100,7 @@ function Accomodation() {
 
                 </div>
 
-
             </div>
-
-
 
         </div>
 

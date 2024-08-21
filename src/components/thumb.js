@@ -15,8 +15,7 @@ function Thumb(props) {
             <div className='thumb_img_div'>
                 <img src={props.cover} alt={props.description}></img>
             </div>
-            
-                
+
         </Link>
     )
 }

@@ -1,14 +1,8 @@
 /*Import des libraries utiliser*/
 
-
-
-
-
 function Dropdown(props) {
 
     function toggleDropdown(e) {
-
-
 
         const element_event = e.currentTarget;
 
@@ -22,11 +16,6 @@ function Dropdown(props) {
 
         text_element.classList.toggle('active');
 
-
-
-        console.log(element_event, parent_element, text_element)
-
-
     }
 
     return (
@@ -38,7 +27,6 @@ function Dropdown(props) {
                 <div className="chevron_div">
                     <ion-icon  name="chevron-up-outline"></ion-icon>
                 </div>
-
 
             </div>
 
